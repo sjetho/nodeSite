@@ -9,7 +9,7 @@ app.set('appData', dataFile);
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
-app.locals.siteTitle = 'Roux Meetups';
+app.locals.siteTitle = 'Dino Land';
 app.locals.allSpeakers = dataFile.speakers;
 
 app.use(express.static('public'));
